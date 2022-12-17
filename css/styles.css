@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-color: #eff6f9;
+}
+
+.btn-primary {
+  border-radius: 0 !important;
+  background-color: #1d566e !important;
+  border-color: none !important;
+}
+
+/* NAV */
+nav a {
+  font-family: "Inter";
+}
+
+nav li {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.login_btn {
+  padding: 9px 40px !important;
+  border: none;
+}
+
+/* NAV END */
+
+/* HEADING SECTION */
+
+#heading_section h3 {
+  font-family: "Space Grotesk";
+  color: #1d566e;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.header_p {
+  font-family: "Inter";
+  color: #1d566e;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-right: 110px;
+  /* padding: 10px 5px; */
+}
+
+.get_started_btn {
+  padding: 9px 40px !important;
+  border: none;
+  margin-right: 10px;
+}
+.create_btn {
+  background-color: #fff !important;
+  color: #1d566e !important;
+  padding: 8px 50px !important;
+  border: 2px solid #1d566e !important;
+  font-family: "Space Grotesk" !important;
+  font-weight: 500;
+}
+
+.but_tons {
+  padding-bottom: 20px;
+}
+
+.population_num {
+  font-family: "Inter";
+  font-weight: 700;
+  color: #304852;
+  font-size: 48px;
+}
+
+.num_label {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  color: #1d566e;
+  font-size: 24px;
+}
+
+.population_col {
+  padding: 10px 15px;
+}
+
+/* HEADING SECTION END */
+
+/* Trending_items */
+
+.catalogue_heading {
+  color: #304852;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 0 !important;
+}
+
+.see_link {
+  text-decoration: none;
+  color: #36595f;
+  font-family: "Space Grotesk";
+}
+
+.artist_pfp {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.illustration,
+.card {
+  border-radius: 0 !important;
+  /* padding: 0;   */
+}
+
+.card {
+  padding: 10px 10px 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.card-body {
+  background-color: #163a5f;
+  color: #fff;
+}
+
+.art_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.author_name {
+  color: #b9dbe6;
+  font-family: "Inter";
+  font-size: 13px;
+}
+
+.time_rem,
+.bid_auction {
+  color: #b9dbe6;
+  font-family: "Inter";
+  font-size: 10px;
+}
+.place_bid {
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  font-size: 20px;
+  color: #b9dbe6;
+  border: 2px #b9dbe6 solid;
+  background-color: #163a5f !important;
+}
+/* Trending Items END */
+
+/* FEATURES SECTION */
+#Features,
+#Top_artist,
+#FAQ {
+  margin-top: 60px;
+  /* margin-bottom: 40px; */
+}
+
+.list {
+  font-family: "Space Grotesk";
+  color: #1d566e;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.discover {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 20px;
+  color: #304852;
+}
+
+.features_cols {
+  background-color: #fff;
+}
+
+.features_cols p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #6e7f86;
+  padding-top: 10px;
+}
+
+.features_cols h3 {
+  color: #304852;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.icon {
+  background-color: #ecf6f6;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 15px #ecf6f6;
+}
+
+#Top_artist h3 {
+  font-family: "Space Grotesk";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 61px;
+  color: #304852;
+}
+
+#Top_artist span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: #304852;
+}
+
+#Top_artist p {
+  margin-bottom: 0;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 16px !important;
+  color: #ecf6f6;
+}
+
+#Top_artist strong {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* FEATURES SECTION END */
+
+#FAQ {
+  font-family: "Space Grotesk";
+  color: #1d566e;
+  /* padding: 2% 10%; */
+  line-height: 30px;
+}
+
+#FAQ h3 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.learn {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom: 20px;
+  color: #1d566e;
+}
+
+#FAQ ul {
+  padding-left: 0 !important;
+}
+
+#FAQ li {
+  list-style: none;
+}
+
+#FAQ h4 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #163a5f;
+}
+
+#FAQ li {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.explore_div {
+  padding-right: 300px;
+}
+
+#FAQ .card-title {
+  font-family: "Space Grotesk";
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#FAQ .by {
+  color: #ecf6f6;
+  font-weight: 500;
+  font-family: "Space grotesk";
+  font-size: 24px;
+}
+
+.expBtn {
+  background-color: #b9dbe6;
+  font-weight: 600;
+  font-size: 20px;
+}
+#mailing {
+  background-color: #163a5f;
+  padding: 7% 7%;
+  margin: 0 !important;
+  max-width: 100%;
+  margin-top: 70px !important;
+}
+
+#mailing h3 {
+  font-family: "Space Grotesk";
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#mailing p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#mailing ::placeholder {
+  color: #163a5f;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter";
+}
+
+.envelopeIcon {
+  padding-left: 20px;
+  background: url("/assets/Mail.svg") no-repeat left;
+  background-size: 20px;
+  margin-left: 10px;
+}
+
+.subscribeButton {
+  font-family: "Space grotesk";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#footer {
+  background-color: #eff6f9;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#footer .bring {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1d566e;
+}
+
+.socialIcon {
+  border-radius: 50%;
+  box-shadow: 0 0 10px 15px #ecf6f6;
+  background-color: #ecf6f6;
+}
+
+#footer h4 {
+  font-family: Space Grotesk;
+  font-size: 25px;
+  font-weight: 700;
+  color: #163a5f;
+}
+
+#footer li {
+  list-style: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d566e;
+}
